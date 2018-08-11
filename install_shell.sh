@@ -13,7 +13,7 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 # install config files
 cp .bash_profile ~
 cp .vimrc ~
-cp .tmux_conf ~
+cp .tmux.conf ~
 cp .prompt ~
 touch ~/.bash_profile_local
 
