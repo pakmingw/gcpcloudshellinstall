@@ -105,5 +105,9 @@ alias gcurl-post='curl -X POST -H "Authorization: Bearer $(gcloud auth print-acc
 # Consider local bin directory as part of the path
 export PATH=$PATH:~/bin
 
+# set editor to vim
+git config --global core.editor "vim"
+
 ## LOCAL BASHRC/BASH_PROFILE ##
-#source ~/.bash_profile_local
+source ~/.bash_profile_local
+

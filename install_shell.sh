@@ -15,5 +15,9 @@ cp .bash_profile ~
 cp .vimrc ~
 cp .tmux_conf ~
 cp .prompt ~
+touch ~/.bash_profile_local
+
+# change editor to vim, you know it makes sense
+git config --global core.editor "vim"
 
 # to finish installation, restart shell, run vim and issue :PluginInstall
