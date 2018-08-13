@@ -20,4 +20,4 @@ Enjoy!
 
 Pak
 
-p.s. many thanks to Javier for the initial base scripts
+p.s. This is mainly due to the great work of Javier for the majority of the initial base scripts.
