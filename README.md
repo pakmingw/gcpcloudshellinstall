@@ -16,6 +16,8 @@ Installation Steps:
 
 3. Restart the cloud shell and you should be good to go.
 
+NOTE: The initial config has unbound Ctrl-B to Ctrl-Q. You can alter this to suit your taste.
+
 Enjoy!
 
 Pak
