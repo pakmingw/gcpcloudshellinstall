@@ -5,7 +5,9 @@ tmux: https://github.com/tmux/tmux
 
 vundle: https://github.com/VundleVim/Vundle.vim
 
-NOTE: There are post installation steps after the script. Please review the .bash_profile for added aliases and shortcuts.
+A fantastic introduction to tmux can be found here: https://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily/
+
+NOTE: There are post installation steps after the script. Please review the .bash_profile for added aliases and shortcuts. Also note that the initial config has unbound Ctrl-B to Ctrl-Q. You can alter this to suit your taste.
 
 Installation Steps:
 0. Carefully review the install_shell.sh. This shell script assumes you are using a machine for the first time. If this is not the case, you may want to comment out some of initial update / upgrade steps.
@@ -15,8 +17,6 @@ Installation Steps:
 2. Launch vim and issuing :PluginInstall to complete the vundle plugin installation. Issue :bdelete to exit the buffer and return to vim.
 
 3. Restart the cloud shell and you should be good to go.
-
-NOTE: The initial config has unbound Ctrl-B to Ctrl-Q. You can alter this to suit your taste.
 
 Enjoy!
 
