@@ -4,8 +4,11 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-# install git tmux
-sudo install -y git tmux
+# install git
+sudo install -y git
+
+# install tmux
+sudo install -y tmux
 
 # install vundle 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
