@@ -24,3 +24,4 @@ touch ~/.bash_profile_local
 git config --global core.editor "vim"
 
 # to finish installation, restart shell, run vim and issue :PluginInstall
+source ~/.bash_profile
